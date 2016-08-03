@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c653cfac-395c-4603-9ca1-435d5786a13a" name="openstack-nova" url="http://10.43.1.234">
+        <fileTransfer host="10.43.1.234" port="22" accessType="SFTP" password="df9bdf98df99df9edf9fdf9c" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4a218c60-2f4a-4446-842b-a30af321ee7d" name="docker-node1" url="http://10.24.247.23">
+        <fileTransfer host="10.24.247.23" port="22" accessType="SFTP" password="df9bdf98df99df9edf9fdf9c" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e8888aad-6f00-43a8-9abd-d04ecd6a2c1f" name="docker-node2" url="http://10.24.247.24">
+        <fileTransfer host="10.24.247.24" port="22" accessType="SFTP" password="dfccdfd8dfc5dfcbdfcedf84dfc9df9adfc7" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
